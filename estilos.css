@@ -1,0 +1,171 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    position: relative;
+}
+
+.cont_principal{
+    width: 100%;
+    height: 300vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+/* ======================================================= */
+.presentacion{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(225, 142, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(255, 255, 255); /* Color de fondo como fallback */
+    background-image: url('foto2.jpg'); /* Asegúrate de reemplazar esto con la ruta real de tu imagen */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Cubre todo el espacio disponible, puede cambiarlo a contain si desea que se vea toda la imagen sin cortes */
+}
+
+.presentacion_difuminado{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(83, 83, 83, 0.113); /* Color de fondo como fallback */
+}
+
+.formulario{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+.mesa_regalos{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(40, 120, 53);
+}
+
+/* ======================================================= */
+
+.cont_invitacion{
+    border-radius: 5px;
+    width: 40%;
+    height: 80%;
+    border: 5px solid rgb(120, 104, 12);
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    position: absolute;
+    background-color: rgb(255, 255, 255); /* Color de fondo como fallback */
+    background-image: url('foto4.jpg'); /* Asegúrate de reemplazar esto con la ruta real de tu imagen */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Cubre todo el espacio disponible, puede cambiarlo a contain si desea que se vea toda la imagen sin cortes */
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 30%;
+}
+
+span{
+    font-size: 30px;
+}
+
+.cont_fecha{
+    width: 80%;
+    height: 50%;
+    display: flex;
+}
+
+.cont_dia{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dia{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 20px 50px ;
+}
+
+.fecha{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fecha_top{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 20px;
+}
+
+.fecha_mid{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.fecha_bot{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    font-size: 20px;
+}
+
+
+.cont_hora{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hora{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 20px 50px ;
+}
+
+.cont_foto{
+    width: 100%;
+    height: 40%;
+    border: 1px solid red;
+}
