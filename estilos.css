@@ -63,10 +63,19 @@ body{
 
 }
 
-.mesa_regalos{
+.cont_mesa_regalos{
     width: 100%;
     height: 100vh;
-    background-color: rgb(40, 120, 53);
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(255, 255, 255); /* Color de fondo como fallback */
+    background-image: url('foto5.jpg'); /* Asegúrate de reemplazar esto con la ruta real de tu imagen */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Cubre todo el espacio disponible, puede cambiarlo a contain si desea que se vea toda la imagen sin cortes */
 }
 
 /* ======================================================= */
@@ -91,6 +100,23 @@ body{
 }
 
 .formulario{
+    border-radius: 5px;
+    width: 40%;
+    height: 80%;
+    border: 5px solid rgb(120, 104, 12);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255); /* Color de fondo como fallback */
+    background-image: url('foto4.jpg'); /* Asegúrate de reemplazar esto con la ruta real de tu imagen */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Cubre todo el espacio disponible, puede cambiarlo a contain si desea que se vea toda la imagen sin cortes */
+
+}
+
+.mesa_regalos{
     border-radius: 5px;
     width: 40%;
     height: 80%;
@@ -227,4 +253,21 @@ span{
 fieldset{
     overflow: auto;
     height: 200px;
+}
+
+/* ======================================================================================================== */
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.pin {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
 }

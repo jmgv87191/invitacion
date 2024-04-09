@@ -120,7 +120,19 @@
             </form>
         </div>
 
-        <div class="mesa_regalos">
+        <div class="cont_mesa_regalos">
+            
+            <div class="mesa_regalos">
+
+
+
+            <div id="map"></div>
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmV2LOxK9PRDmArNDnsHvNWgdcRh5nl8k&callback=initMap" async defer></script>
+
+
+            </div>
+
 
         </div>
 
